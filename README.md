@@ -66,3 +66,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+Developed a geo-based social network web application with React JS framework, allowing individual users to post pictures/videos, view nearby posts in both gallery and map mode (indicated by markers and Info Windows and allowing drag, zoom etc.), and filter face images; specifically created the webpage, posts UI and forms used in “create posts” feature with CSS and Ant Design, supported token-based registration/login/logout/home flow with React Router v4 and Bearer authentication, implemented “nearby posts” & “nearby faces” features with Geolocation API while utilizing grid-gallery package for gallery mode and Google API for map mode, enabled filled-in info type-checking with PropTypes, stored temporary info with local storage, and performed the async web interaction tasks(e.g. login, load posts etc.) with fetch promise chain.
